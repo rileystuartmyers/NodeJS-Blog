@@ -4,4 +4,4 @@
 </p>
 
 This project was created through the reference of a tutorial found on Youtube: 
-<a href = "https://www.youtube.com/watch?v=-foo92lFIto&list=PL4cUxeGkcC9hAJ-ARcYq_z6lDZV7kT1xD">Link to Tutorial</a>
+<a href = "https://www.youtube.com/watch?v=-foo92lFIto&list=PL4cUxeGkcC9hAJ-ARcYq_z6lDZV7kT1xD">Link to tutorial made by <b>Raddy Dev</b></a>
