@@ -1,0 +1,32 @@
+<div class="author">
+  <h1 class="author__heading">Hi, I'm Stuart!</h1>
+  <p class="author__body">Software Development and Data Science</p>
+</div>
+
+<img src="/img/3nfg8o.webp" alt="scary linus" class="linus-image" width="1200" height="528">
+
+<section class="articles">
+  <h2 class="articles__heading">Latest Posts</h2>
+
+  <ul class="article-ul">
+    <% data.forEach(post => { %>
+      <li>
+        <a href="/post/<%= post._id %>">
+          <span><%= post.title %></span>
+          <span class="article-list__date"><%= post.createdAt.toDateString() %></span>
+        </a>
+      </li>
+    <% }) %>
+  </ul>
+
+
+  <% if (nextPage !== null) { %>
+    <a href="/?page=<%= nextPage %>" class="pagination">&lt; View Older Posts</a>
+  <% } %>
+ 
+
+  
+
+
+
+</section>
